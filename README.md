@@ -23,7 +23,7 @@ Examples are provided in Python, JavaScript, Java, and C++ to help learners see 
 ### Flowchart Guidance
 A simple flowchart illustrates the general workflow of a programming task:
 
-```plaintext
+```mermaid
 graph TD
   A[Start Task] --> B[Understand Requirements]
   B --> C[Design Logic]
