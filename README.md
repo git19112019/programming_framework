@@ -79,6 +79,15 @@ int main() {
 }
 ```
 
+#### Ruby Example:
+```ruby
+def greet(name)
+  "Hello, #{name}!"
+end
+
+puts greet("World")
+```
+
 ---
 
 ## Flowchart
