@@ -26,6 +26,7 @@ A simple flowchart illustrates the general workflow of a programming task:
 - Design the logic.
 - Write code in the chosen language.
 - Test, debug, and review.
+
 ```mermaid
 graph TD
   A[Start Task] --> B[Understand Requirements]
@@ -36,6 +37,7 @@ graph TD
   F -- No --> D
   F -- Yes --> G[Review and Improve]
   G --> H[End]
+
 ### Programming Tasks
 The framework includes exercises with clear objectives and pseudocode instructions, helping learners:
 1. Practice input/output operations.
