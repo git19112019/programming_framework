@@ -60,6 +60,18 @@ Explore how the same logic is implemented across different languages:
 
 ### Flowchart
 Visual representation of a beginner's task flow:
+ flowchart:
+    description: "General task flowchart for programming beginners."
+    diagram: |
+      graph TD
+        A[Start Task] --> B[Understand Requirements]
+        B --> C[Design Logic]
+        C --> D[Write Code in Chosen Language]
+        D --> E[Test and Debug]
+        E --> F{Task Completed?}
+        F -- No --> D
+        F -- Yes --> G[Review and Improve]
+        G --> H[End]
 
 ### Tasks
 Programming exercises for learners:
