@@ -79,11 +79,7 @@ int main() {
 }
 ```
 
-#### Ruby Example:
-```ruby
-def greet(name)
-  "Hello, #{name}!"
-end
+
 
 puts greet("World")
 ```
@@ -147,7 +143,6 @@ Guidance for adapting pseudocode into any language.
 - **JavaScript:** Use braces `{}` for blocks and semicolons for line termination.
 - **Java:** Declare types explicitly and use classes where appropriate.
 - **C++:** Use `#include` directives and specify `main` as the entry point.
-- **Ruby:** Write concise, readable syntax without semicolons.
 
 ---
 
