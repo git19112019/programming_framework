@@ -79,11 +79,6 @@ int main() {
 }
 ```
 
-
-
-puts greet("World")
-```
-
 ---
 
 ## Flowchart
