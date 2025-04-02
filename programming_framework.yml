@@ -1,0 +1,125 @@
+programming_framework:
+  title: "Universal Programming Learning Framework"
+  version: "1.0"
+  author: "You"
+  description: >
+    A YAML-based framework designed to teach programming fundamentals in any language.
+    This framework includes structured logic, examples in multiple languages, and step-by-step guides
+    for learners to build and understand core programming concepts.
+
+  pseudocode:
+    description: "Logical flow and language-agnostic representation of the task."
+    steps:
+      - Setup:
+          - Initialize a simple environment.
+          - Define input and output requirements.
+          - Break down the task into logical steps.
+      - Core Logic:
+          - Process input based on defined rules.
+          - Perform required operations (e.g., calculations, loops).
+          - Handle edge cases effectively.
+      - Output:
+          - Display the result or return a value.
+          - End gracefully.
+
+  examples:
+    description: "Same logic implemented in multiple programming languages."
+    examples_list:
+      - language: "Python"
+        code: |
+          def greet(name):
+              return f"Hello, {name}!"
+
+          print(greet("World"))
+
+      - language: "JavaScript"
+        code: |
+          function greet(name) {
+              return `Hello, ${name}!`;
+          }
+
+          console.log(greet("World"));
+
+      - language: "Java"
+        code: |
+          public class HelloWorld {
+              public static void main(String[] args) {
+                  System.out.println(greet("World"));
+              }
+
+              public static String greet(String name) {
+                  return "Hello, " + name + "!";
+              }
+          }
+
+      - language: "C++"
+        code: |
+          #include <iostream>
+          using namespace std;
+
+          string greet(string name) {
+              return "Hello, " + name + "!";
+          }
+
+          int main() {
+              cout << greet("World") << endl;
+              return 0;
+          }
+
+  flowchart:
+    description: "General task flowchart for programming beginners."
+    diagram: |
+      graph TD
+        A[Start Task] --> B[Understand Requirements]
+        B --> C[Design Logic]
+        C --> D[Write Code in Chosen Language]
+        D --> E[Test and Debug]
+        E --> F{Task Completed?}
+        F -- No --> D
+        F -- Yes --> G[Review and Improve]
+        G --> H[End]
+
+  tasks:
+    description: "Programming exercises for learners."
+    list:
+      - id: "1"
+        name: "Basic Input and Output"
+        objective: "Create a program that asks for a user's name and greets them."
+        pseudocode: |
+          - Prompt user for their name.
+          - Store input in a variable.
+          - Print a greeting message using the variable.
+        example_output: "Hello, Alice!"
+      - id: "2"
+        name: "Basic Arithmetic"
+        objective: "Write a program that adds two numbers entered by the user."
+        pseudocode: |
+          - Prompt user for the first number.
+          - Prompt user for the second number.
+          - Add the two numbers together.
+          - Display the sum as the result.
+        example_output: "5 + 3 = 8"
+      - id: "3"
+        name: "Loop Example"
+        objective: "Print numbers from 1 to 10 using a loop."
+        pseudocode: |
+          - Initialize a counter variable to 1.
+          - While counter is less than or equal to 10:
+              - Print the counter.
+              - Increment the counter.
+
+  language_switch:
+    description: "Guidance for adapting pseudocode into any language."
+    rules:
+      - "For Python: Use indentation for block structures."
+      - "For JavaScript: Use braces {} for blocks and semicolons for line termination."
+      - "For Java: Declare types explicitly and use classes where appropriate."
+      - "For C++: Use #include directives and specify main as the entry point."
+      - "For Ruby: Write concise, readable syntax without semicolons."
+
+  additional_features:
+    description: "Ideas to extend this YAML framework."
+    features:
+      - "Add tutorials for debugging in different languages."
+      - "Include problem-solving strategies, e.g., divide-and-conquer."
+      - "Provide sample projects for each language to apply learned concepts."
